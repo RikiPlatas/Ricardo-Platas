@@ -40,7 +40,7 @@ public class EchoBot extends TelegramLongPollingBot {
 
         private SendMessage procesarMensaje (String chatId, String texto){
             SendMessage message = new SendMessage();
-            message.setText("Me has dicho:"+texto);
+            message.setText("Me has dicho: "+texto);
             message.setChatId(String.valueOf(chatId));
 
             return message;
