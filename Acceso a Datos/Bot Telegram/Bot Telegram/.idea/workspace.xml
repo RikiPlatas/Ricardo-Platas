@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b86ddae-99b6-4bb2-8642-936c5e6c091a" name="Changes" comment="" />
+    <list default="true" id="7b86ddae-99b6-4bb2-8642-936c5e6c091a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/EchoBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/EchoBot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/EchoBot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/EchoBot.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +37,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Riki/Documents/GitHub/Ricardo-Platas/Acceso a Datos/Bot Telegram/Bot Telegram"
   }
 }]]></component>
   <component name="RecentsManager">

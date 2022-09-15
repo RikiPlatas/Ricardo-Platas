@@ -18,9 +18,13 @@ public class EchoBot extends TelegramLongPollingBot {
             return "5617275326:AAHEixdVqscjMEqB8MWumLRfQkSr49eHYk8";
         }
 
+
         @Override
         public void onUpdateReceived(Update update) {
 
+            //como sabe el bot que esto se ejecuta con el /start?
+            //como se especifican los comandos
+            //tengo que hacer una clase por comando?
 
             //se obtiene el mensaje escrito por el usuario
             final String messageTextReceived = update.getMessage().getText();
