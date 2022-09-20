@@ -98,23 +98,30 @@ public class Main {
 
 */
 
-        FileReader file = new FileReader("C:\\Users\\FP\\Desktop\\notas.txt")
+        FileReader Fnotas = null;
+        BufferedReader bnotas = null;
 
-        BufferedReader fichero = new BufferedReader(new FileReader(file));
-        int a = fichero.read();
-        int sum = 0;
-        int media = 0;
-        int cont = 0;
-        String file = "";
 
-        while (a != -1) {
+        Fnotas = new FileReader("C:\\Users\\FP\\Desktop\\notas.txt");
+        bnotas = new BufferedReader(Fnotas);
 
-            System.out.println(a);
-            a = fichero.read();
-            sum = sum + a;
-            cont++;
+        StringBuilder todasNotas = new StringBuilder();
+        String lineaNotas = bnotas.readLine();
+
+        while (lineaNotas != null) {
+            todasNotas.append(lineaNotas);
+            lineaNotas = bnotas.readLine();
         }
-        media = sum / cont;
+        String[] notas = todasNotas.toString().split("[|]");
+
+        double media = 0.0;
+        for (String nota : notas) {
+            media += Double.parseDouble(nota);
+        }
+
+        media = media / notas.length;
+
+        System.out.println(media);
     }
 
 }
