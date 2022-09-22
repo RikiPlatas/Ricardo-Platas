@@ -1,6 +1,6 @@
-import java.io.BufferedReader;
-import java.io.FileReader;
 import java.io.IOException;
+import java.io.RandomAccessFile;
+import java.util.ArrayList;
 
 public class Main {
 
@@ -97,7 +97,7 @@ public class Main {
         }
 
 */
-
+/*
         FileReader Fnotas = null;
         BufferedReader bnotas = null;
 
@@ -122,6 +122,94 @@ public class Main {
         media = media / notas.length;
 
         System.out.println(media);
+        
+        */
+
+        /*
+        
+        FileInputStream fis = null;
+        FileOutputStream fos = null;
+
+        InputStreamReader isr = null;
+        OutputStreamWriter osr = null;
+
+        try {
+            String ficheroLeer = "C:\\Users\\FP\\Desktop\\FicheroConÑ.txt";
+            String ficheroEscribir = "\u202AC:\\Users\\FP\\Desktop\\FicheroEscribirÑ.txt";
+
+            fis = new FileInputStream(ficheroLeer);
+            fos = new FileOutputStream(ficheroEscribir);
+
+            isr = new InputStreamReader(fis, StandardCharsets.UTF_8);
+            osr = new OutputStreamWriter(fos, "ISO_8859_1");
+
+            int data = isr.read();
+
+            while (data != -1) {
+
+                char character = (char) data;
+                data = isr.read();
+            }
+
+
+        } catch (Exception e) {
+            System.out.println("Peto");
+        } finally {
+            try {
+                if (isr != null) isr.close();
+                if (osr != null) osr.close();
+                if (fis != null) fis.close();
+                if (fos != null) fos.close();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+        ;
+*/
+
+
+        ArrayList<Alumno> alumnos = new ArrayList<Alumno>();
+
+        alumnos.add(new Alumno("Paco      ", 32, 8.9));
+        alumnos.add(new Alumno("Miguel    ", 12, 6.3));
+        alumnos.add(new Alumno("Daniel    ", 32, 5.5));
+        alumnos.add(new Alumno("Luis       ", 32, 9.7));
+
+        RandomAccessFile raf = null;
+
+        try {
+            raf = new RandomAccessFile("C:\\Users\\FP\\Desktop\\Alumnos.txt", "rw");
+
+            for (Alumno alumno : alumnos) {
+
+                raf.writeChars(alumno.getnombre());
+                raf.writeInt(alumno.getEdad());
+                raf.writeDouble(alumno.getNotaMedia());
+            }
+
+            raf.seek(32);
+
+            String nombre = "";
+            int edad = 0;
+            Double nota = 0.0;
+            for (int i = 0; i < 10; i++) {
+                nombre += raf.readChar();
+            }
+            edad += raf.readInt();
+            nota += raf.readDouble();
+
+            System.out.println(nombre + " " + edad + " " + nota);
+
+
+        } catch (Exception e) {
+
+        } finally {
+
+            raf.close();
+
+        }
+
     }
+
 
 }
