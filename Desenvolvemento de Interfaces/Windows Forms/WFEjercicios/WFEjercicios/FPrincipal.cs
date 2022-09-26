@@ -68,6 +68,33 @@ namespace WFEjercicios
             this.panel5.Controls.Add(lblDinamica);
             
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Ejercicio1 Ejer1 = new Ejercicio1();
+            Ejer1.ShowDialog();
+        }
+
+        private void button5_Click_1(object sender, EventArgs e)
+        {
+            Ejercicio2 Ejer2 = new Ejercicio2();
+            Ejer2.ShowDialog();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Ejercicio3 Ejer3 = new Ejercicio3();
+            Ejer3.ShowDialog();
+        }
+
+
+
+
         /*
 private void agregarBotonDinamico()
 {

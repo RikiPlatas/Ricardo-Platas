@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\FP\\source\\repos\\WFEjercicios\\WFEjercicios\\WFEjercicios.csproj",
+      "projectUniqueName": "C:\\Users\\FP\\Documents\\GitHub\\Ricardo-Platas\\Desenvolvemento de Interfaces\\Windows Forms\\WFEjercicios\\WFEjercicios\\WFEjercicios.csproj",
       "projectName": "WFEjercicios",
-      "projectPath": "C:\\Users\\FP\\source\\repos\\WFEjercicios\\WFEjercicios\\WFEjercicios.csproj",
+      "projectPath": "C:\\Users\\FP\\Documents\\GitHub\\Ricardo-Platas\\Desenvolvemento de Interfaces\\Windows Forms\\WFEjercicios\\WFEjercicios\\WFEjercicios.csproj",
       "packagesPath": "C:\\Users\\FP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\FP\\source\\repos\\WFEjercicios\\WFEjercicios\\obj\\",
+      "outputPath": "C:\\Users\\FP\\Documents\\GitHub\\Ricardo-Platas\\Desenvolvemento de Interfaces\\Windows Forms\\WFEjercicios\\WFEjercicios\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

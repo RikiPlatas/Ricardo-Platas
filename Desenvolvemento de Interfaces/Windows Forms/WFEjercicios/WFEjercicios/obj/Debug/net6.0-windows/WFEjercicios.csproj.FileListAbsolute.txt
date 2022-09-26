@@ -15,3 +15,24 @@ C:\Users\FP\source\repos\WFEjercicios\WFEjercicios\obj\Debug\net6.0-windows\refi
 C:\Users\FP\source\repos\WFEjercicios\WFEjercicios\obj\Debug\net6.0-windows\WFEjercicios.pdb
 C:\Users\FP\source\repos\WFEjercicios\WFEjercicios\obj\Debug\net6.0-windows\WFEjercicios.genruntimeconfig.cache
 C:\Users\FP\source\repos\WFEjercicios\WFEjercicios\obj\Debug\net6.0-windows\ref\WFEjercicios.dll
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\bin\Debug\net6.0-windows\WFEjercicios.exe
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\bin\Debug\net6.0-windows\WFEjercicios.deps.json
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\bin\Debug\net6.0-windows\WFEjercicios.runtimeconfig.json
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\bin\Debug\net6.0-windows\WFEjercicios.dll
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\bin\Debug\net6.0-windows\WFEjercicios.pdb
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\net6.0-windows\WFEjercicios.csproj.AssemblyReference.cache
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\net6.0-windows\WFEjercicios.FPrincipal.resources
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\net6.0-windows\WFEjercicios.csproj.GenerateResource.cache
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\net6.0-windows\WFEjercicios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\net6.0-windows\WFEjercicios.AssemblyInfoInputs.cache
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\net6.0-windows\WFEjercicios.AssemblyInfo.cs
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\net6.0-windows\WFEjercicios.csproj.CoreCompileInputs.cache
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\net6.0-windows\WFEjercicios.dll
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\net6.0-windows\refint\WFEjercicios.dll
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\net6.0-windows\WFEjercicios.pdb
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\net6.0-windows\WFEjercicios.genruntimeconfig.cache
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\net6.0-windows\ref\WFEjercicios.dll
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\net6.0-windows\WFEjercicios.Properties.Resources.resources
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\net6.0-windows\WFEjercicios.Ejercicio1.resources
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\net6.0-windows\WFEjercicios.Ejercicio2.resources
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\net6.0-windows\WFEjercicios.Ejercicio3.resources
