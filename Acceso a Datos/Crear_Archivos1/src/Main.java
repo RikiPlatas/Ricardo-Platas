@@ -1,5 +1,4 @@
-import java.io.IOException;
-import java.io.RandomAccessFile;
+import java.io.*;
 import java.util.ArrayList;
 
 public class Main {
@@ -168,6 +167,7 @@ public class Main {
 */
 
 
+        /*
         ArrayList<Alumno> alumnos = new ArrayList<Alumno>();
 
         alumnos.add(new Alumno("Paco      ", 32, 8.9));
@@ -208,6 +208,67 @@ public class Main {
             raf.close();
 
         }
+
+    }
+    */
+
+
+        boolean continuar = true;
+        ArrayList<Persona> personas = new ArrayList<Persona>();
+
+        ArrayList<Persona> personasleer = new ArrayList<>();
+
+        personas.add(new Persona("Pablo", "Blanco Suarez", "10/05/2000"));
+        personas.add(new Persona("Marcos", "Diaz Blanco", "10/05/2000"));
+        personas.add(new Persona("Miguel", "Gonzalez Blanco", "10/05/2000"));
+
+        FileOutputStream fos = null;
+
+        FileInputStream fis = null;
+        InputStreamReader isr = null;
+        ObjectInputStream ois = null;
+        ObjectOutputStream oos = null;
+
+        String ficheroLeer = "C:\\Users\\FP\\Desktop\\ficheros acceso a datos\\objetos.txt";
+
+
+        try {
+            fos = new FileOutputStream("C:\\Users\\FP\\Desktop\\ficheros acceso a datos\\objetos.txt");
+
+            fis = new FileInputStream(ficheroLeer);
+
+            oos = new ObjectOutputStream(fos);
+
+            ois = new ObjectInputStream(fis);
+
+
+            for (Persona persona : personas) {
+                oos.writeObject(persona);
+            }
+
+            while (continuar) {
+                try {
+                    personasleer.add((Persona) ois.readObject());
+
+                } catch (EOFException e) {
+                    continuar = false;
+                }
+            }
+
+
+            for (Persona persona : personasleer) {
+                System.out.println(personasleer.toString());
+            }
+
+
+        } catch (Exception e) {
+
+            e.printStackTrace();
+
+        } finally {
+            oos.close();
+        }
+
 
     }
 
