@@ -36,3 +36,10 @@ C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\Window
 C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\net6.0-windows\WFEjercicios.Ejercicio1.resources
 C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\net6.0-windows\WFEjercicios.Ejercicio2.resources
 C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\net6.0-windows\WFEjercicios.Ejercicio3.resources
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\net6.0-windows\WFEjercicios.Ejercicio4.resources
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\net6.0-windows\Interop.WMPLib.dll
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\net6.0-windows\Interop.MediaPlayer.dll
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\net6.0-windows\Interop.WMPDXMLib.dll
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\net6.0-windows\Interop.WMPLauncher.dll
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\net6.0-windows\WFEjercicios.csproj.ResolveComReference.cache
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\net6.0-windows\WFEjercicios.Ejercicio5.resources

@@ -92,6 +92,18 @@ namespace WFEjercicios
             Ejer3.ShowDialog();
         }
 
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Ejercicio4 Ejer4 = new Ejercicio4();
+            Ejer4.ShowDialog();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            Ejercicio5 Ejer5 = new Ejercicio5();
+            Ejer5.ShowDialog();
+        }
+
 
 
 
