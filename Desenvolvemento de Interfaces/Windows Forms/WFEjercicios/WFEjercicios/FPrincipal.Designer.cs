@@ -36,6 +36,8 @@
             this.panel6 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
             this.panel7 = new System.Windows.Forms.Panel();
+            this.button9 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
@@ -48,7 +50,7 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
             this.panel6.SuspendLayout();
             this.panel7.SuspendLayout();
             this.panel8.SuspendLayout();
@@ -119,6 +121,8 @@
             // panel7
             // 
             this.panel7.BackColor = System.Drawing.Color.SlateGray;
+            this.panel7.Controls.Add(this.button10);
+            this.panel7.Controls.Add(this.button9);
             this.panel7.Controls.Add(this.button8);
             this.panel7.Controls.Add(this.button7);
             this.panel7.Controls.Add(this.button6);
@@ -130,6 +134,26 @@
             this.panel7.Size = new System.Drawing.Size(238, 296);
             this.panel7.TabIndex = 2;
             this.panel7.Paint += new System.Windows.Forms.PaintEventHandler(this.panel7_Paint);
+            // 
+            // button9
+            // 
+            this.button9.Location = new System.Drawing.Point(12, 154);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(75, 23);
+            this.button9.TabIndex = 6;
+            this.button9.Text = "Ejercicio 6";
+            this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
+            // 
+            // button8
+            // 
+            this.button8.Location = new System.Drawing.Point(12, 125);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(75, 23);
+            this.button8.TabIndex = 5;
+            this.button8.Text = "Ejercicio 5";
+            this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button7
             // 
@@ -261,15 +285,15 @@
             this.button4.Text = "button4";
             this.button4.UseVisualStyleBackColor = true;
             // 
-            // button8
+            // button10
             // 
-            this.button8.Location = new System.Drawing.Point(12, 125);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(75, 23);
-            this.button8.TabIndex = 5;
-            this.button8.Text = "Ejercicio 5";
-            this.button8.UseVisualStyleBackColor = true;
-            this.button8.Click += new System.EventHandler(this.button8_Click);
+            this.button10.Location = new System.Drawing.Point(12, 183);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(75, 23);
+            this.button10.TabIndex = 7;
+            this.button10.Text = "Ejercicio 7";
+            this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // FPrincipal
             // 
@@ -312,5 +336,7 @@
         private Button button6;
         private Button button7;
         private Button button8;
+        private Button button9;
+        private Button button10;
     }
 }

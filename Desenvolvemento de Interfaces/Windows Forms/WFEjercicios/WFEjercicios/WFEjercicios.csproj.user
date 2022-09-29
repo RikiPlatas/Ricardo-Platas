@@ -16,6 +16,12 @@
     <Compile Update="Ejercicio5.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Ejercicio6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Ejercicio7.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="FPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
