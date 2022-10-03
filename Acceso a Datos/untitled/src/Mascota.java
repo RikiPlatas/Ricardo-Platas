@@ -1,28 +1,26 @@
 public class Mascota {
+
     private String nombre;
     private int edad;
-
     private String tipo;
 
-    private String genero;
 
+    /**
+     *
+     */
     public Mascota() {
     }
 
     /**
-     *
-     * @param nombre
-     * @param edad
-     * @param tipo
-     * @param genero
+     *Constructor con todos los parametros
+     * @param nombre nombre de la mascota
+     * @param edad edad de la mascota
+     * @param tipo tipo de la mascota
      */
-    public Mascota(String nombre, int edad, String tipo, String genero) {
+    public Mascota(String nombre, int edad, String tipo) {
         this.nombre = nombre;
         this.edad = edad;
         this.tipo = tipo;
-        this.genero = genero;
-
-
     }
 
     public String getNombre() {
@@ -49,27 +47,16 @@ public class Mascota {
         this.tipo = tipo;
     }
 
-    public String getGenero() {
-        return genero;
-    }
-
-    public void setGenero(String genero) {
-        this.genero = genero;
-    }
-
-
     /**
      *
      * @return
      */
-
     @Override
     public String toString() {
         return "Mascota{" +
                 "nombre='" + nombre + '\'' +
                 ", edad=" + edad +
                 ", tipo='" + tipo + '\'' +
-                ", genero='" + genero + '\'' +
                 '}';
     }
 }
