@@ -45,3 +45,5 @@ C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\Window
 C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\net6.0-windows\WFEjercicios.Ejercicio5.resources
 C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\net6.0-windows\WFEjercicios.Ejercicio6.resources
 C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\net6.0-windows\WFEjercicios.Ejercicio7.resources
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\net6.0-windows\WFEjercicios.Ejercicio8.resources
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\net6.0-windows\WFEjercicios.Ejercicio9.resources
