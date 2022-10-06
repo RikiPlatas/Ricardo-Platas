@@ -47,3 +47,8 @@ C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\Window
 C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\net6.0-windows\WFEjercicios.Ejercicio7.resources
 C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\net6.0-windows\WFEjercicios.Ejercicio8.resources
 C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\net6.0-windows\WFEjercicios.Ejercicio9.resources
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\bin\Debug\net6.0-windows\en\WFEjercicios.resources.dll
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\net6.0-windows\WFEjercicios.Ejercicio10.resources
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\net6.0-windows\WFEjercicios.Resources.Generico.resources
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\net6.0-windows\WFEjercicios.Resources.Generico.en.resources
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\net6.0-windows\en\WFEjercicios.resources.dll

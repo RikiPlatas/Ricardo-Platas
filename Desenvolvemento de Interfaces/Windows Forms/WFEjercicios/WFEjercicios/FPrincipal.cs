@@ -130,6 +130,12 @@ namespace WFEjercicios
             Ejer9.ShowDialog();
         }
 
+        private void button13_Click(object sender, EventArgs e)
+        {
+            Ejercicio10 Ejer10 = new Ejercicio10();
+            Ejer10.ShowDialog();
+        }
+
 
 
 
