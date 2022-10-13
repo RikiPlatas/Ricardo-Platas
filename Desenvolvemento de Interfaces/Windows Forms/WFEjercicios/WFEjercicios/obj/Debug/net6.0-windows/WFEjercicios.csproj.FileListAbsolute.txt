@@ -45,6 +45,7 @@ C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\Window
 C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\net6.0-windows\WFEjercicios.Ejercicio5.resources
 C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\net6.0-windows\WFEjercicios.Ejercicio6.resources
 C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\net6.0-windows\WFEjercicios.Ejercicio7.resources
+<<<<<<< HEAD
 C:\Users\Riki\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\bin\Debug\net6.0-windows\WFEjercicios.exe
 C:\Users\Riki\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\bin\Debug\net6.0-windows\WFEjercicios.deps.json
 C:\Users\Riki\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\bin\Debug\net6.0-windows\WFEjercicios.runtimeconfig.json
@@ -75,3 +76,12 @@ C:\Users\Riki\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\Wind
 C:\Users\Riki\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\net6.0-windows\WFEjercicios.pdb
 C:\Users\Riki\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\net6.0-windows\WFEjercicios.genruntimeconfig.cache
 C:\Users\Riki\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\net6.0-windows\ref\WFEjercicios.dll
+=======
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\net6.0-windows\WFEjercicios.Ejercicio8.resources
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\net6.0-windows\WFEjercicios.Ejercicio9.resources
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\bin\Debug\net6.0-windows\en\WFEjercicios.resources.dll
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\net6.0-windows\WFEjercicios.Ejercicio10.resources
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\net6.0-windows\WFEjercicios.Resources.Generico.resources
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\net6.0-windows\WFEjercicios.Resources.Generico.en.resources
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\Windows Forms\WFEjercicios\WFEjercicios\obj\Debug\net6.0-windows\en\WFEjercicios.resources.dll
+>>>>>>> 51b718130bf2500beef6355670044ccaf7225129

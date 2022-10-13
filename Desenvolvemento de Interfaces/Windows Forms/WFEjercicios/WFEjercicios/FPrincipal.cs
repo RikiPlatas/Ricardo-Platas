@@ -23,7 +23,9 @@ namespace WFEjercicios
             this.BackColor = Color.LimeGreen;
             this.Text = "Este es el titulo en ejecucion";
             // this.agregarBotonDinamico();
-            this.agregarLabelDinamica();
+            //this.agregarLabelDinamica();
+
+
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -114,6 +116,24 @@ namespace WFEjercicios
         {
             Ejercicio7 Ejer7 = new Ejercicio7();
             Ejer7.ShowDialog();
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            Ejercicio8 Ejer8 = new Ejercicio8();
+            Ejer8.ShowDialog();
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            Ejercicio9 Ejer9 = new Ejercicio9();
+            Ejer9.ShowDialog();
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            Ejercicio10 Ejer10 = new Ejercicio10();
+            Ejer10.ShowDialog();
         }
 
 

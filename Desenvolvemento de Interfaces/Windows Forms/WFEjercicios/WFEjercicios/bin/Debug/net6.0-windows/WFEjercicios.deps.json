@@ -9,6 +9,11 @@
       "WFEjercicios/1.0.0": {
         "runtime": {
           "WFEjercicios.dll": {}
+        },
+        "resources": {
+          "en/WFEjercicios.resources.dll": {
+            "locale": "en"
+          }
         }
       }
     }

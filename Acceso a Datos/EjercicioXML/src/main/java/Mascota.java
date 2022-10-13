@@ -9,11 +9,20 @@ public class Mascota {
     public Mascota() {
     }
 
+    /**
+     *
+     * @param nombre
+     * @param edad
+     * @param tipo
+     * @param genero
+     */
     public Mascota(String nombre, int edad, String tipo, String genero) {
         this.nombre = nombre;
         this.edad = edad;
         this.tipo = tipo;
         this.genero = genero;
+
+
     }
 
     public String getNombre() {
@@ -47,6 +56,12 @@ public class Mascota {
     public void setGenero(String genero) {
         this.genero = genero;
     }
+
+
+    /**
+     *
+     * @return
+     */
 
     @Override
     public String toString() {

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<aventura titulo = "1">
+    <escena codigo = "0">
+        <texto>Bienvenido a la mazmorra de los dragones ancianos...</texto>
+        <opcion id = "1" texto = "Explorar el hueco en la pared..." resultado ="1"></opcion>
+        <opcion id = "2" texto = "Entrar por la puerta" resultado ="2"></opcion>
+        <opcion id = "3" texto = "Irte, te dan miedo los dragones" resultado ="3"></opcion>
+    </escena>
+    <escena codigo = "1">
+        <texto>Te acercas a un pequeño hueco que hay en la pared y logras ver dos enormes sombras
+            sin llegar a ver de donde provienen.
+        </texto>
+        <opcion id = "1" texto = "Te armas de valor y entras por la puerta" resultado ="0"></opcion>
+        <opcion id = "2" texto = "Irte, te dan miedo los dragones" resultado ="0"></opcion>
+    </escena>
+    <escena codigo = "2">
+        <texto>Te acercas a un gran porton de madera que chirria a medida que se va abriendo...
+            Te encuentras en una gran sala llena de oro con dos puertas al final del salon.
+        </texto>
+        <opcion id = "1" texto = "Te vuelves loco y coges todo el oro que puedas llevar" resultado ="0"></opcion>
+        <opcion id = "2" texto = "Continuas por la puerta azul" resultado ="0"></opcion>
+        <opcion id = "3" texto = "Continuas por la puerta roja" resultado ="0"></opcion>
+    </escena>
+    <escena codigo = "3">
+        <texto> Sales corriendo de aquel lugar porque no estas dispuesto a entrar, preso del panico y los gritos,
+            los dragones te escuchan y salen a devorarte...
+            HAS MUERTO!
+        </texto>
+    </escena>
+</aventura>
