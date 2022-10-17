@@ -1,0 +1,11 @@
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\PracticaInterfaces\bin\Debug\PracticaInterfaces.exe.config
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\PracticaInterfaces\bin\Debug\PracticaInterfaces.exe
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\PracticaInterfaces\bin\Debug\PracticaInterfaces.pdb
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\PracticaInterfaces\obj\Debug\PracticaInterfaces.csproj.AssemblyReference.cache
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\PracticaInterfaces\obj\Debug\PracticaInterfaces.csproj.SuggestedBindingRedirects.cache
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\PracticaInterfaces\obj\Debug\PracticaInterfaces.Form1.resources
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\PracticaInterfaces\obj\Debug\PracticaInterfaces.Properties.Resources.resources
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\PracticaInterfaces\obj\Debug\PracticaInterfaces.csproj.GenerateResource.cache
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\PracticaInterfaces\obj\Debug\PracticaInterfaces.csproj.CoreCompileInputs.cache
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\PracticaInterfaces\obj\Debug\PracticaInterfaces.exe
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\PracticaInterfaces\obj\Debug\PracticaInterfaces.pdb
