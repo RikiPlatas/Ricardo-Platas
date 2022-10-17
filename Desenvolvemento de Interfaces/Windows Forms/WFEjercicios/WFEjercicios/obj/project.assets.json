@@ -8,19 +8,24 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Riki\\.nuget\\packages\\": {}
+    "C:\\Users\\FP\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Riki\\Documents\\GitHub\\Ricardo-Platas\\Desenvolvemento de Interfaces\\Windows Forms\\WFEjercicios\\WFEjercicios\\WFEjercicios.csproj",
+      "projectUniqueName": "C:\\Users\\FP\\Documents\\GitHub\\Ricardo-Platas\\Desenvolvemento de Interfaces\\Windows Forms\\WFEjercicios\\WFEjercicios\\WFEjercicios.csproj",
       "projectName": "WFEjercicios",
-      "projectPath": "C:\\Users\\Riki\\Documents\\GitHub\\Ricardo-Platas\\Desenvolvemento de Interfaces\\Windows Forms\\WFEjercicios\\WFEjercicios\\WFEjercicios.csproj",
-      "packagesPath": "C:\\Users\\Riki\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Riki\\Documents\\GitHub\\Ricardo-Platas\\Desenvolvemento de Interfaces\\Windows Forms\\WFEjercicios\\WFEjercicios\\obj\\",
+      "projectPath": "C:\\Users\\FP\\Documents\\GitHub\\Ricardo-Platas\\Desenvolvemento de Interfaces\\Windows Forms\\WFEjercicios\\WFEjercicios\\WFEjercicios.csproj",
+      "packagesPath": "C:\\Users\\FP\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\FP\\Documents\\GitHub\\Ricardo-Platas\\Desenvolvemento de Interfaces\\Windows Forms\\WFEjercicios\\WFEjercicios\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Riki\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\FP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -28,6 +33,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -64,7 +70,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
