@@ -60,6 +60,8 @@ public class Main {
                 "                         |___/                                    \n");
 
 
+
+
         realizarLecturaXML("C:\\Users\\FP\\Desktop\\Practica Acceso\\XMLPractica.xml");
 
         //realizarGuardadoXML(lista,"C:\\Users\\FP\\Desktop\\2 DAM\\Acceso a datos\\generadoXMLJABX.xml");
