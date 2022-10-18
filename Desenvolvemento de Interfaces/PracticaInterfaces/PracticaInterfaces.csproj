@@ -83,5 +83,29 @@
   <ItemGroup>
     <None Include="Resources\default.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\azul.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blanco.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\incoloro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\negro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pirexiano.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rojo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\verde.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\x.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
