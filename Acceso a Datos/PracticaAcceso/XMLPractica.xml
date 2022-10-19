@@ -45,11 +45,42 @@
         <opcion id = "3" texto = "Preguntas por el objeto magico encontrado en la sala de oro" resultado ="6"></opcion>
     </escena>
     <escena codigo = "6">
-        <texto>Ugin: "Es un antiguo artefacto capaz de derrotar a cualquiera de los dragones ancianos, creada por los que intentaron detener a mi hermano hace millones de años"
+        <texto>Ugin: "Es un antiguo artefacto capaz de derrotar a cualquiera de los dragones, creada por los que intentaron detener a mi hermano hace millones de años"
 
         </texto>
-            <opcion id = "1" texto = "Decides hacerle caso a ugin y afrontar tu destino, te diriges a la puerta roja" resultado ="0"></opcion>
+            <opcion id = "1" texto = "Decides hacerle caso a Ugin y afrontar tu destino, te diriges a la puerta roja" resultado ="0"></opcion>
             <opcion id = "2" texto = "Tienes miedo y sales corriendo de aque lugar" resultado ="3"></opcion>
             <opcion id = "2" texto = "Decides usar el conocimiento otorgado por Ugin sobre el poderoso artefacto y matarlo a el en un arrebato de desconfianza" resultado ="0"></opcion>
     </escena>
+    <escena codigo = "7">
+        <texto>Decidido, entras por una gran puerta roja la que te conduce a una sala enorme donde te encuentras con Nicol Bolas, el Dragon corrompido.
+            Nicol Bolas: "Bienvenido ser insignificante, nose que te a traido a nuestro plano natal, el plano de meditacion".
+            Nicol Bolas: "Si quieres salvar tu vida tendras que entrar en la prision de mi hermano Ugin y matarlo para poder completar mi plan maestro."
+            Nicol Bolas: "Usa este orbe para absorver su poder y que pueda extraerlo en mi cuerpo."
+            Nicol Bolas: "Si deseas salvar tu vida cumple tu deseo y traeme el orbe."
+        </texto>
+        <opcion id = "1" texto = "Decides hacerle caso a Nicol Bolas e ir a por su hermano Ugin, te diriges a la puerta azul" resultado ="0"></opcion>
+        <opcion id = "2" texto = "Tienes miedo y sales corriendo de aque lugar" resultado ="3"></opcion>
+        <opcion id = "3" texto = "Preguntas por el objeto magico encontrado en la sala de oro" resultado ="6"></opcion>
+    </escena>
+    <escena codigo = "8">
+        <texto>Nicol Bolas: "No voy a contestar tus preguntas insecto miserable y obedece mis ordenes"
+
+        </texto>
+            <opcion id = "1" texto = "Decides hacerle caso a Nicol Bolas e ir a por su hermano Ugin, te diriges a la puerta azul" resultado ="0"></opcion>
+            <opcion id = "2" texto = "Tienes miedo y sales corriendo de aque lugar" resultado ="3"></opcion>
+            <opcion id = "2" texto = "No te convence su discurso y pruebas a usar la espada de la sala de oro contra el" resultado ="0"></opcion>
+    </escena>
+    <escena codigo = "8">
+        <texto>Te envuelves en una epica batalla contra el Nicol Bolas.
+            El poder del dragon es superior al tuyo pero aun asi no le resulta tan facil desacerse de ti.
+            Cuando usa todo su potencial te deja bastante malherido en el suelo, pero con tu ultimo aliento cargado de valentia usas tu hechizo de teletransportacion y consigues 
+            clavarle la espada en el corazon.
+            Nicol Bolas agoniza y te maldice a la par que se desvanece poco a poco.
+            Con tu magia absorbes todo su poder y conocimiento.
+        </texto>
+            <opcion id = "1" texto = "Te vas de aque lugar, vaya aventura de locos..." resultado ="0"></opcion>
+            <opcion id = "2" texto = "Con el poder y conocimiento absorvido decides ir a salvar a Ugin de su prision espectral" resultado ="3"></opcion>
+    </escena>
+    
 </aventura>
