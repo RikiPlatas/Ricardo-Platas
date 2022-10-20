@@ -8,7 +8,7 @@
     </escena>
     <escena codigo = "1">
         <texto>Te acercas a un pequeño hueco que hay en la pared y logras ver dos enormes sombras
-            sin llegar a ver de donde provienen.
+            sin llegar a ver de donde provienen mas alla de una gran sala con oro y valiosos objetos.
         </texto>
         <opcion id = "1" texto = "Te armas de valor y entras por la puerta" resultado ="2"></opcion>
         <opcion id = "2" texto = "Irte, te dan miedo los dragones" resultado ="3"></opcion>
@@ -19,7 +19,7 @@
         </texto>
         <opcion id = "1" texto = "Te vuelves loco y coges todo el oro que puedas llevar" resultado ="4"></opcion>
         <opcion id = "2" texto = "Continuas por la puerta azul" resultado ="5"></opcion>
-        <opcion id = "3" texto = "Continuas por la puerta roja" resultado ="0"></opcion>
+        <opcion id = "3" texto = "Continuas por la puerta roja" resultado ="7"></opcion>
     </escena>
     <escena codigo = "3">
         <texto> Sales corriendo de aquel lugar porque no estas dispuesto a entrar, preso del panico y los gritos,
@@ -28,10 +28,10 @@
         </texto>
     </escena>
     <escena codigo = "4">
-        <texto>Empiezas e llenarte los bolsillo de oro y entre monedas y joyas antiguas encuentras un arma, una espada inbuida en fuego y hielo
+        <texto>Empiezas e llenarte los bolsillo de oro y entre monedas y joyas antiguas encuentras un misterioso objeto, el caliz del vacio
         </texto>
-        <opcion id = "1" texto = "Continuas por la puerta roja" resultado ="0"></opcion>
-        <opcion id = "2" texto = "Continuas por la puerta azul" resultado ="5"></opcion>
+        <opcion id = "1" texto = "Continuas por la puerta azul" resultado ="5"></opcion>
+        <opcion id = "2" texto = "Continuas por la puerta roja" resultado ="7"></opcion>
     </escena>
     <escena codigo = "5">
         <texto>Decidido, entras por una gran puerta azul la que te conduce a una sala enorme donde te encuentras con Ugin, el Dragon espiritual.
@@ -40,15 +40,15 @@
             Ugin: "Esta sala tiene un hechizo de prision espectral lo cual no me permite salir de ella en mi forma natural, espiritu"
             Ugin: "El unico objeto capaz de dañarlo es esta espada de acero oscuro, tomala y cumple tu destino"
         </texto>
-        <opcion id = "1" texto = "Decides hacerle caso a ugin y afrontar tu destino, te diriges a la puerta roja" resultado ="0"></opcion>
+        <opcion id = "1" texto = "Decides hacerle caso a ugin y afrontar tu destino, te diriges a la puerta roja" resultado ="7"></opcion>
         <opcion id = "2" texto = "Tienes miedo y sales corriendo de aque lugar" resultado ="3"></opcion>
         <opcion id = "3" texto = "Preguntas por el objeto magico encontrado en la sala de oro" resultado ="6"></opcion>
     </escena>
     <escena codigo = "6">
-        <texto>Ugin: "Es un antiguo artefacto capaz de derrotar a cualquiera de los dragones, creada por los que intentaron detener a mi hermano hace millones de años"
+        <texto>Ugin: "Es un antiguo artefacto capaz de derrotar a cualquiera de los dragones, creada por los que intentaron detener a mi hermano hace millares de años"
 
         </texto>
-            <opcion id = "1" texto = "Decides hacerle caso a Ugin y afrontar tu destino, te diriges a la puerta roja" resultado ="0"></opcion>
+            <opcion id = "1" texto = "Decides hacerle caso a Ugin y afrontar tu destino, te diriges a la puerta roja" resultado ="9"></opcion>
             <opcion id = "2" texto = "Tienes miedo y sales corriendo de aque lugar" resultado ="3"></opcion>
             <opcion id = "2" texto = "Decides usar el conocimiento otorgado por Ugin sobre el poderoso artefacto y matarlo a el en un arrebato de desconfianza" resultado ="0"></opcion>
     </escena>
@@ -67,20 +67,43 @@
         <texto>Nicol Bolas: "No voy a contestar tus preguntas insecto miserable y obedece mis ordenes"
 
         </texto>
-            <opcion id = "1" texto = "Decides hacerle caso a Nicol Bolas e ir a por su hermano Ugin, te diriges a la puerta azul" resultado ="0"></opcion>
+            <opcion id = "1" texto = "Decides hacerle caso a Nicol Bolas e ir a por su hermano Ugin, te diriges a la puerta azul" resultado ="10"></opcion>
             <opcion id = "2" texto = "Tienes miedo y sales corriendo de aque lugar" resultado ="3"></opcion>
-            <opcion id = "2" texto = "No te convence su discurso y pruebas a usar la espada de la sala de oro contra el" resultado ="0"></opcion>
+            <opcion id = "2" texto = "No te convence su discurso y pruebas a usar el caliz del vacion de la sala de oro contra el" resultado ="9"></opcion>
     </escena>
-    <escena codigo = "8">
-        <texto>Te envuelves en una epica batalla contra el Nicol Bolas.
+    <escena codigo = "9">
+        <texto>Te envuelves en una epica batalla contra Nicol Bolas.
             El poder del dragon es superior al tuyo pero aun asi no le resulta tan facil desacerse de ti.
             Cuando usa todo su potencial te deja bastante malherido en el suelo, pero con tu ultimo aliento cargado de valentia usas tu hechizo de teletransportacion y consigues 
-            clavarle la espada en el corazon.
+            usar el artefacto contra el.
             Nicol Bolas agoniza y te maldice a la par que se desvanece poco a poco.
             Con tu magia absorbes todo su poder y conocimiento.
         </texto>
             <opcion id = "1" texto = "Te vas de aque lugar, vaya aventura de locos..." resultado ="0"></opcion>
             <opcion id = "2" texto = "Con el poder y conocimiento absorvido decides ir a salvar a Ugin de su prision espectral" resultado ="3"></opcion>
+    </escena>
+    <escena codigo = "10">
+        <texto>Te envuelves en una epica batalla contra Ugin.
+            El poder del dragon es superior al tuyo pero aun asi no le resulta tan facil desacerse de ti.
+            Cuando usa todo su potencial te deja bastante malherido en el suelo, pero con tu ultimo aliento cargado de valentia usas tu hechizo de teletransportacion y consigues 
+            usar el artefacto contra el.
+            Ugin agoniza y se pregunta el porque de tus actos a la par que se desvanece poco a poco.
+            Con tu magia absorbes todo su poder y conocimiento.
+        </texto>
+            <opcion id = "1" texto = "Te vas de aque lugar, vaya aventura de locos..." resultado ="12"></opcion>
+            <opcion id = "2" texto = "Con el poder y conocimiento absorvido decides ir a matar tambien a su hermano Nicol Bolas" resultado ="9"></opcion>
+    </escena>
+    <escena codigo = "11">
+        <texto>Vuelves a la sala donde esta retenido ugin y usas el conocimiento junto con el poder que has absorvido para deshacer el hechizo de prision espectral.
+            Ugin: Muchas gracias viajero, el multiverso esta a salvo gracias a tu valentia.
+            Ugin: Ademas por primera vez en milenios puedo salir de esta sala, como agradecimiento toma este orbe para que puedas salir del plano. 
+        </texto>
+            <opcion id = "1" texto = "Usas el orbe y sales victorioso de aquel maldito lugar" resultado ="12"></opcion>
+    </escena>
+    <escena codigo = "12">
+        <texto>Te teletransportas a tu plano de origen y los lugareños te victorean por tus hazañas.
+            FIN
+        </texto>
     </escena>
     
 </aventura>
