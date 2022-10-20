@@ -9,3 +9,7 @@ C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\Practi
 C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\PracticaInterfaces\obj\Debug\PracticaInterfaces.csproj.CoreCompileInputs.cache
 C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\PracticaInterfaces\obj\Debug\PracticaInterfaces.exe
 C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\PracticaInterfaces\obj\Debug\PracticaInterfaces.pdb
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\PracticaInterfaces\obj\Debug\PracticaInterfaces.Idiomas.Generico.resources
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\PracticaInterfaces\bin\Debug\en\PracticaInterfaces.resources.dll
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\PracticaInterfaces\obj\Debug\PracticaInterfaces.Idiomas.Generico.en.resources
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\PracticaInterfaces\obj\Debug\en\PracticaInterfaces.resources.dll

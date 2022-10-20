@@ -1,16 +1,20 @@
-﻿using PracticaInterfaces.Properties;
+﻿using PracticaInterfaces.Idiomas;
+using PracticaInterfaces.Properties;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Globalization;
 using System.IO.Ports;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using static System.Net.Mime.MediaTypeNames;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using Application = System.Windows.Forms.Application;
 using Image = System.Drawing.Image;
 
 namespace PracticaInterfaces
@@ -47,6 +51,8 @@ namespace PracticaInterfaces
         Image x;
 
 
+        List<PictureBox> pbSeleccionados = new List<PictureBox>();
+
 
         public Form1()
         {
@@ -77,7 +83,7 @@ namespace PracticaInterfaces
 
 
 
-          
+
 
             //Asigno imagenes
             azul = Resources.azul;
@@ -90,6 +96,10 @@ namespace PracticaInterfaces
             x = Resources.x;
 
             comboBox1.SelectedIndex = 0;
+
+            comboBox2.SelectedIndex = 0;
+
+
 
         }
 
@@ -106,7 +116,7 @@ namespace PracticaInterfaces
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-           
+
         }
 
 
@@ -162,7 +172,7 @@ namespace PracticaInterfaces
 
 
 
-           
+
 
 
 
@@ -176,235 +186,272 @@ namespace PracticaInterfaces
                 cont--;
 
             }
+            if (cont == 0)
+            {
+                terminar();
+            }
+
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            //comprobar sin son iguales o diferentes
-            comprobarImg(Pb1Select, Pb2Select);
-
-            //asignar
             imagenAsig(15, pictureBox1);
-            if(Pb1Select == null )
+
+            //comprobar sin son iguales o diferentes
+
+            if (pbSeleccionados.Count == 0)
             {
-                Pb1Select = pictureBox1;
+                pbSeleccionados.Add(pictureBox1);
             }
             else
             {
-                Pb2Select = pictureBox1;
+                pbSeleccionados.Add(pictureBox1);
+                comprobarImg(pbSeleccionados);
             }
+
+
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            comprobarImg(Pb1Select, Pb2Select);
             imagenAsig(14, pictureBox2);
+            Thread.Sleep(2000);
 
-            if (Pb1Select == null)
+
+            if (pbSeleccionados.Count == 0)
             {
-                Pb1Select = pictureBox2;
+                pbSeleccionados.Add(pictureBox2);
             }
             else
             {
-                Pb2Select = pictureBox2;
+                pbSeleccionados.Add(pictureBox2);
+                comprobarImg(pbSeleccionados);
             }
-            
+
+
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
-            comprobarImg(Pb1Select, Pb2Select);
             imagenAsig(13, pictureBox3);
-            if (Pb1Select == null)
+
+
+            if (pbSeleccionados.Count == 0)
             {
-                Pb1Select = pictureBox3;
+                pbSeleccionados.Add(pictureBox3);
             }
             else
             {
-                Pb2Select = pictureBox3;
+                pbSeleccionados.Add(pictureBox3);
+                comprobarImg(pbSeleccionados);
             }
+
         }
         private void pictureBox4_Click(object sender, EventArgs e)
         {
-            comprobarImg(Pb1Select, Pb2Select);
             imagenAsig(12, pictureBox4);
-            if (Pb1Select == null)
+
+            if (pbSeleccionados.Count == 0)
             {
-                Pb1Select = pictureBox4;
+                pbSeleccionados.Add(pictureBox4);
             }
             else
             {
-                Pb2Select = pictureBox4;
+                pbSeleccionados.Add(pictureBox4);
+                comprobarImg(pbSeleccionados);
             }
 
         }
         private void pictureBox5_Click(object sender, EventArgs e)
         {
-            comprobarImg(Pb1Select, Pb2Select);
             imagenAsig(11, pictureBox5);
-            if (Pb1Select == null)
+
+            if (pbSeleccionados.Count == 0)
             {
-                Pb1Select = pictureBox5;
+                pbSeleccionados.Add(pictureBox5);
             }
             else
             {
-                Pb2Select = pictureBox5;
+                pbSeleccionados.Add(pictureBox5);
+                comprobarImg(pbSeleccionados);
             }
+
 
         }
         private void pictureBox6_Click(object sender, EventArgs e)
         {
-            comprobarImg(Pb1Select, Pb2Select);
             imagenAsig(10, pictureBox6);
-            if (Pb1Select == null)
+
+            if (pbSeleccionados.Count == 0)
             {
-                Pb1Select = pictureBox6;
+                pbSeleccionados.Add(pictureBox6);
             }
             else
             {
-                Pb2Select = pictureBox6;
+                pbSeleccionados.Add(pictureBox6);
+                comprobarImg(pbSeleccionados);
             }
+
 
         }
         private void pictureBox7_Click(object sender, EventArgs e)
         {
-            comprobarImg(Pb1Select, Pb2Select);
             imagenAsig(9, pictureBox7);
-            if (Pb1Select == null)
+
+            if (pbSeleccionados.Count == 0)
             {
-                Pb1Select = pictureBox7;
+                pbSeleccionados.Add(pictureBox7);
             }
             else
             {
-                Pb2Select = pictureBox7;
+                pbSeleccionados.Add(pictureBox7);
+                comprobarImg(pbSeleccionados);
             }
+
         }
 
         private void pictureBox8_Click(object sender, EventArgs e)
         {
-            comprobarImg(Pb1Select, Pb2Select);
             imagenAsig(8, pictureBox8);
-            if (Pb1Select == null)
+
+            if (pbSeleccionados.Count == 0)
             {
-                Pb1Select = pictureBox8;
+                pbSeleccionados.Add(pictureBox8);
             }
             else
             {
-                Pb2Select = pictureBox8;
+                pbSeleccionados.Add(pictureBox8);
+                comprobarImg(pbSeleccionados);
             }
+
 
         }
 
         private void pictureBox9_Click(object sender, EventArgs e)
         {
-            comprobarImg(Pb1Select, Pb2Select);
             imagenAsig(7, pictureBox9);
-            if (Pb1Select == null)
+
+            if (pbSeleccionados.Count == 0)
             {
-                Pb1Select = pictureBox9;
+                pbSeleccionados.Add(pictureBox9);
             }
             else
             {
-                Pb2Select = pictureBox9;
+                pbSeleccionados.Add(pictureBox9);
+                comprobarImg(pbSeleccionados);
             }
+
         }
         private void pictureBox10_Click(object sender, EventArgs e)
         {
-            comprobarImg(Pb1Select, Pb2Select);
             imagenAsig(6, pictureBox10);
-            if (Pb1Select == null)
+
+            if (pbSeleccionados.Count == 0)
             {
-                Pb1Select = pictureBox10;
+                pbSeleccionados.Add(pictureBox10);
             }
             else
             {
-                Pb2Select = pictureBox10;
+                pbSeleccionados.Add(pictureBox10);
+                comprobarImg(pbSeleccionados);
             }
+
 
         }
         private void pictureBox11_Click(object sender, EventArgs e)
         {
-            comprobarImg(Pb1Select, Pb2Select);
             imagenAsig(5, pictureBox11);
-            if (Pb1Select == null)
+
+            if (pbSeleccionados.Count == 0)
             {
-                Pb1Select = pictureBox11;
+                pbSeleccionados.Add(pictureBox11);
             }
             else
             {
-                Pb2Select = pictureBox11;
+                pbSeleccionados.Add(pictureBox11);
+                comprobarImg(pbSeleccionados);
             }
+
         }
 
         private void pictureBox12_Click(object sender, EventArgs e)
         {
-            comprobarImg(Pb1Select, Pb2Select);
             imagenAsig(4, pictureBox12);
-            if (Pb1Select == null)
+
+            if (pbSeleccionados.Count == 0)
             {
-                Pb1Select = pictureBox12;
+                pbSeleccionados.Add(pictureBox12);
             }
             else
             {
-                Pb2Select = pictureBox12;
+                pbSeleccionados.Add(pictureBox12);
+                comprobarImg(pbSeleccionados);
             }
+
         }
         private void pictureBox13_Click(object sender, EventArgs e)
         {
-            comprobarImg(Pb1Select, Pb2Select);
             imagenAsig(3, pictureBox13);
-            if (Pb1Select == null)
+
+            if (pbSeleccionados.Count == 0)
             {
-                Pb1Select = pictureBox13;
+                pbSeleccionados.Add(pictureBox13);
             }
             else
             {
-                Pb2Select = pictureBox13;
+                pbSeleccionados.Add(pictureBox13);
+                comprobarImg(pbSeleccionados);
             }
-
         }
 
         private void pictureBox14_Click(object sender, EventArgs e)
         {
-            comprobarImg(Pb1Select, Pb2Select);
             imagenAsig(2, pictureBox14);
-            if (Pb1Select == null)
+
+            if (pbSeleccionados.Count == 0)
             {
-                Pb1Select = pictureBox14;
+                pbSeleccionados.Add(pictureBox14);
             }
             else
             {
-                Pb2Select = pictureBox14;
+                pbSeleccionados.Add(pictureBox14);
+                comprobarImg(pbSeleccionados);
             }
+
 
         }
         private void pictureBox15_Click(object sender, EventArgs e)
         {
-            comprobarImg(Pb1Select, Pb2Select);
             imagenAsig(1, pictureBox15);
-            if (Pb1Select == null)
+
+
+            if (pbSeleccionados.Count == 0)
             {
-                Pb1Select = pictureBox15;
+                pbSeleccionados.Add(pictureBox15);
             }
             else
             {
-                Pb2Select = pictureBox15;
+                pbSeleccionados.Add(pictureBox15);
+                comprobarImg(pbSeleccionados);
             }
+
 
         }
 
         private void pictureBox16_Click(object sender, EventArgs e)
         {
-            comprobarImg(Pb1Select, Pb2Select);
             imagenAsig(0, pictureBox16);
-            if (Pb1Select == null)
+
+            if (pbSeleccionados.Count == 0)
             {
-                Pb1Select = pictureBox16;
+                pbSeleccionados.Add(pictureBox16);
             }
             else
             {
-                Pb2Select = pictureBox16;
+                pbSeleccionados.Add(pictureBox16);
+                comprobarImg(pbSeleccionados);
             }
+
 
         }
 
@@ -452,50 +499,116 @@ namespace PracticaInterfaces
                 pb.Image.Tag = "pirexia";
 
             }
+
         }
 
-        private void comprobarImg(PictureBox pb1 , PictureBox pb2)
+        private void comprobarImg(List<PictureBox> pbSeleccionados)
         {
 
-            if(pb1 != null && pb2 != null)
+            if (pbSeleccionados[0].Image == pbSeleccionados[1].Image)
+            {
+                pbSeleccionados[0].Enabled = false;
+                pbSeleccionados[1].Enabled = false;
+
+            }
+            else if (pbSeleccionados[0].Image != pbSeleccionados[1].Image)
             {
 
-           
-            if(pb1.Image.Tag != pb2.Image.Tag)
-                {
-                    if(pb1.Enabled == true)
-                    {
-                        pb1.Image = Resources._default;
+                pbSeleccionados[0].Refresh();
+                pbSeleccionados[1].Refresh();
 
-                        pb1 = null;
+                Thread.Sleep(1000);
 
-                    }
-                    if (pb2.Enabled == true)
-                    {
-                        pb2.Image = Resources._default;
+                pbSeleccionados[0].Image = Resources._default;
 
-                        pb2 = null;
-
-                    }
-
-                    
-
-                }
-                else
-            {
-                pb1.Enabled = false;
-                pb2.Enabled = false;
+                pbSeleccionados[1].Image = Resources._default;
 
 
             }
-           }
+
+
+            pbSeleccionados.Clear();
+
+        }
+        private void terminar()
+        {
+            MessageBox.Show("Ha terminado la partida");
+            Application.Exit();
+            Environment.Exit(1);
         }
 
- 
+        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (comboBox2.Text == ("Ingles"))
+            {
+                Thread.CurrentThread.CurrentUICulture = new CultureInfo("en-US");
+
+                label1.Text = Idiomas.Generico.jugador;
+                label2.Text = Idiomas.Generico.dificultad;
+                label3.Text = Idiomas.Generico.tiempo;
+                label4.Text = Idiomas.Generico.idioma;
+                button1.Text = Idiomas.Generico.comenzar;
+                button2.Text = Idiomas.Generico.cambiar;
+
+
+                comboBox2.Items.Clear();
+                comboBox2.Items.Add("Spanish");
+                comboBox2.Items.Add("English");
+
+                comboBox2.SelectedIndex = 1;
+
+                comboBox1.Items.Clear();
+                comboBox1.Items.Add("Easy");
+                comboBox1.Items.Add("Medium");
+                comboBox1.Items.Add("Hard");
+
+
+                comboBox1.SelectedIndex = 0;
+
+
+
+
+            }
+            else if (comboBox2.Text == ("Español")|| comboBox2.Text == ("Spanish"))
+            {
+                Thread.CurrentThread.CurrentUICulture = new CultureInfo("es-ES");
+
+                label1.Text = Idiomas.Generico.jugador;
+                label2.Text = Idiomas.Generico.dificultad;
+                label3.Text = Idiomas.Generico.tiempo;
+                label4.Text = Idiomas.Generico.idioma;
+                button1.Text = Idiomas.Generico.comenzar;
+                button2.Text = Idiomas.Generico.cambiar;
+
+
+                comboBox2.Items.Clear();
+
+
+
+                comboBox2.Items.Add("Español");
+                comboBox2.Items.Add("Ingles");
+
+
+                comboBox2.SelectedIndex = 0;
+
+
+                comboBox1.Items.Clear();
+                comboBox1.Items.Add("Facil");
+                comboBox1.Items.Add("Normal");
+                comboBox1.Items.Add("Dificil");
+
+
+                comboBox1.SelectedIndex = 0;
+            }
+        }
+
+
     }
-
-
-
- 
-
 }
+
+
