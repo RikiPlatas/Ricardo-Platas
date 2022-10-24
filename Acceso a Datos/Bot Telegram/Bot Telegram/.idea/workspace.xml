@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="7b86ddae-99b6-4bb2-8642-936c5e6c091a" name="Changes" comment="" />
+=======
+    <list default="true" id="7b86ddae-99b6-4bb2-8642-936c5e6c091a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../13-09-2022/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../13-09-2022/src/main/java/org/example/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+>>>>>>> Stashed changes
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,11 +37,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< Updated upstream
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Riki/Documents/GitHub/Ricardo-Platas/Acceso a Datos/Bot Telegram/Bot Telegram&quot;
+=======
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "full.screen.before.presentation.mode": "false",
+    "last_opened_file_path": "C:/Users/Riki/Documents/GitHub/Ricardo-Platas/Acceso a Datos/13-09-2022/src/main",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
+>>>>>>> Stashed changes
   }
 }</component>
   <component name="RecentsManager">
