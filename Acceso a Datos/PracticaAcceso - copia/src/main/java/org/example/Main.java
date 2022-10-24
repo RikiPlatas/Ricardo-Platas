@@ -13,7 +13,6 @@ public class Main {
 
     public static void main(String[] args) throws JAXBException, IOException, InterruptedException {
 
-
         System.out.println("                                                 /===-_---~~~~~~~~~------____\n" +
                 "                                                |===-~___                _,-'\n" +
                 "                 -==\\\\                         `//~\\\\   ~~~~`---.___.-~~\n" +
@@ -45,7 +44,7 @@ public class Main {
                 "\n" +
                 "-----------------------------------------------------------------------------------\n");
 
-        // Thread.sleep(5000);
+        Thread.sleep(5000);
 
         System.out.println("\n" +
                 " _             _____                                 _        _             _                                               \n" +
@@ -70,7 +69,6 @@ public class Main {
         int res = 0;
         boolean fin = false;
 
-
         File file = new File(ruta);
 
         if (file.exists()) {
@@ -78,8 +76,6 @@ public class Main {
             Unmarshaller jaxbUnmarshaller = jaxbContext.createUnmarshaller();
 
             aventura = (AventuraJABX) jaxbUnmarshaller.unmarshal(file);
-            //printar toda la aventura
-            System.out.println(aventura);
 
             while (!fin) {
 
@@ -117,50 +113,17 @@ public class Main {
 
     private static EscenaJABX imprimirEscena(int cod) {
 
-        Inventario inventario = new Inventario();
-
 
         EscenaJABX test = null;
         //for each para recorres las escenas
         for (EscenaJABX escena1 : aventura.getEscenas()) {
             //if para coger la escena del codigo que te pasen
-
             if (escena1.getCodigo() == cod) {
-                System.out.println();
                 System.out.println(escena1.getTexto());
-
                 //for each para recorrer las opciones de la escena que esta seleccionada
                 for (OpcionesJABX opcion1 : escena1.opciones) {
                     System.out.println(opcion1.getId() + "-" + opcion1.getTexto());
 
-                    if (escena1.getCodigo() == 2 && opcion1.getId() == 1) {
-                        inventario.caliz = true;
-                        System.out.println("hola");
-                        System.out.println(escena1.getCodigo());
-                        System.out.println(opcion1.getId());
-                    }
-                }
-
-
-                System.out.println("                                        INVENTARIO");
-
-                if (inventario.espada == false) {
-                    System.out.print("                                      Espada de acero oscuro: No obtenida ");
-                }
-                if (inventario.orbe == false) {
-                    System.out.print("                  Orbe magico: No obtenido ");
-                }
-                if (inventario.caliz == false) {
-                    System.out.println("                Caliz del vacio: No obtenido");
-                }
-                if (inventario.espada == true) {
-                    System.out.print("                                      Espada de acero oscuro: Obtenida ");
-                }
-                if (inventario.orbe == true) {
-                    System.out.print("                  Orbe magico: Obtenido ");
-                }
-                if (inventario.caliz == true) {
-                    System.out.println("                Caliz del vacio: Obtenido");
                 }
                 test = escena1;
 
