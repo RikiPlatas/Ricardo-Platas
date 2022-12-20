@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/ETREGAS-AD-MONGODB.iml" filepath="$PROJECT_DIR$/.idea/ETREGAS-AD-MONGODB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PracticaAcceso/PracticaAcceso.iml" filepath="$PROJECT_DIR$/PracticaAcceso/PracticaAcceso.iml" />
+    </modules>
+  </component>
+</project>
