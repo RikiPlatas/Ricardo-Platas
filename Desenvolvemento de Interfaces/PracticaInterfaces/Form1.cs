@@ -180,7 +180,7 @@ namespace PracticaInterfaces
 
         private void timer1_Tick_1(object sender, EventArgs e)
         {
-            if (cont > 0)
+            if (cont >= 0)
             {
                 label3.Text = cont.ToString();
                 cont--;
