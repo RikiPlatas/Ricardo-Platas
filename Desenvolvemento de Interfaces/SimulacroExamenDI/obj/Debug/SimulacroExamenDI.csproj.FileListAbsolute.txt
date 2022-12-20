@@ -1,0 +1,16 @@
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\SimulacroExamenDI\obj\Debug\SimulacroExamenDI.csproj.AssemblyReference.cache
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\SimulacroExamenDI\obj\Debug\SimulacroExamenDI.csproj.SuggestedBindingRedirects.cache
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\SimulacroExamenDI\obj\Debug\SimulacroExamenDI.FParte1.resources
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\SimulacroExamenDI\obj\Debug\SimulacroExamenDI.Properties.Resources.resources
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\SimulacroExamenDI\obj\Debug\SimulacroExamenDI.csproj.GenerateResource.cache
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\SimulacroExamenDI\obj\Debug\SimulacroExamenDI.csproj.CoreCompileInputs.cache
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\SimulacroExamenDI\bin\Debug\SimulacroExamenDI.exe.config
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\SimulacroExamenDI\bin\Debug\SimulacroExamenDI.exe
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\SimulacroExamenDI\bin\Debug\SimulacroExamenDI.pdb
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\SimulacroExamenDI\obj\Debug\SimulacroExamenDI.exe
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\SimulacroExamenDI\obj\Debug\SimulacroExamenDI.pdb
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\SimulacroExamenDI\obj\Debug\SimulacroExamenDI.FParte2.resources
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\SimulacroExamenDI\obj\Debug\SimulacroExamenDI.FParte3.resources
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\SimulacroExamenDI\obj\Debug\SimulacroExamenDI.FParte4.resources
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\SimulacroExamenDI\obj\Debug\SimulacroExamenDI.FParte5.resources
+C:\Users\FP\Documents\GitHub\Ricardo-Platas\Desenvolvemento de Interfaces\SimulacroExamenDI\obj\Debug\SimulacroExamenDI.FParte6.resources
